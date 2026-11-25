@@ -1,3 +1,5 @@
+<img src="icon.svg" width="96" height="96" alt="" align="right">
+
 # Soft Click
 
 Want to copy something from a window that's half hidden behind another one? Hold **Alt** and click or drag in it. Soft Click focuses that window so you can select text, scroll or type, but doesn't bring it to the front. The windows on top stay where they are. Let go of Alt and clicking works normally again.
