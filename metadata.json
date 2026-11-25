@@ -1,0 +1,17 @@
+{
+  "uuid": "soft-click@stepanroznik.github.io",
+  "name": "Soft Click",
+  "description": "Hold Alt and click a window to focus it without bringing it to the front. Select text in, scroll or type into a window behind others while they stay on top.\n\nThe hold key can be changed to Super, Ctrl or Shift in the preferences.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "url": "https://github.com/stepanroznik/soft-click",
+  "settings-schema": "org.gnome.shell.extensions.soft-click",
+  "version-name": "1.0.0"
+}

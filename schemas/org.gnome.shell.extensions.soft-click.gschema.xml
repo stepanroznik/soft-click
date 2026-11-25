@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.soft-click.modifier">
+    <value nick="super" value="0"/>
+    <value nick="alt" value="1"/>
+    <value nick="control" value="2"/>
+    <value nick="shift" value="3"/>
+  </enum>
+
+  <schema id="org.gnome.shell.extensions.soft-click" path="/org/gnome/shell/extensions/soft-click/">
+    <key name="activation-modifier" enum="org.gnome.shell.extensions.soft-click.modifier">
+      <default>'alt'</default>
+      <summary>Key to hold for soft clicking</summary>
+      <description>While this key is held, clicking a window focuses it without raising it.</description>
+    </key>
+
+    <!-- Used to restore the window manager settings if GNOME Shell stops while the hold key is down. -->
+    <key name="active" type="b">
+      <default>false</default>
+      <summary>Window manager settings are currently overridden</summary>
+    </key>
+    <key name="saved-raise-on-click" type="b">
+      <default>true</default>
+      <summary>raise-on-click value to restore</summary>
+    </key>
+    <key name="saved-mouse-button-modifier" type="s">
+      <default>'&lt;Super&gt;'</default>
+      <summary>mouse-button-modifier value to restore</summary>
+    </key>
+  </schema>
+</schemalist>
